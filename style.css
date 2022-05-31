@@ -23,7 +23,7 @@ button {
 }
 
 button:hover {
-  background-color: rgb(238, 238, 238);
+  background-color: rgb(218, 217, 217);
 }
 
 .container {
@@ -94,11 +94,12 @@ button:hover {
   margin: 0 0 1rem 0;
   font-size: 3rem;
   color: #fff;
-  background-color: #2c2929;
+  background: none;
   border: 1px solid #fff;
   font-family: "Press Start 2P", cursive;
-  padding: 2.5rem;
-  width: 20rem;
+  padding: 1rem 0;
+  text-align: center;
+  width: 17.5rem;
 }
 
 .right-col {
