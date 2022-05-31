@@ -1,0 +1,74 @@
+/* ///////////////////// Globals ////////////////////// */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2c2929;
+  color: #fff;
+  font-family: "Press Start 2P", cursive;
+  letter-spacing: 0.2rem;
+}
+
+button {
+  background-color: #fff;
+  color: rgb(0, 0, 0);
+  padding: 1.2rem 1rem;
+  font-size: 1.5rem;
+  font-family: "Press Start 2P", cursive;
+  border: none;
+  height: 5rem;
+}
+
+button:hover {
+  background-color: rgb(238, 238, 238);
+}
+
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+/* //////////////////////// UPPER DIV ///////////// */
+
+.upper-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 1.5rem auto;
+  height: 40vh;
+  position: relative;
+}
+.upper-container-border-bottom {
+  border-bottom: 4px solid #fff;
+}
+
+/* ///////////////////////// MAIN ///////////////// */
+
+.main-div {
+  position: absolute;
+  left: 50%;
+  top: 44%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.square {
+  width: 120px;
+  height: 100px;
+  background-color: #fff;
+  margin: 2rem 0;
+  color: #2c2929;
+  text-align: center;
+  padding: 1.4rem 0 0 0.3rem;
+}
+
+.guess-number {
+  font-size: 3rem;
+  padding: 1rem 0;
+}
